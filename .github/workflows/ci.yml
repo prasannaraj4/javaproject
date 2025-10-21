@@ -38,8 +38,8 @@ jobs:
       with:
         image: lakshmiprasanna2207/java_image
         registry: docker.io
-        username: ${{ secrets.username }}
-        password: ${{ secrets.password }}
+        username: ${{ secrets.USERNAME }}
+        password: ${{ secrets.PASSWORD }}
   
 
    
